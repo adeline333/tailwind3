@@ -7,12 +7,41 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="/css/tailwind.css">
 </head>
-<body class="bg-gray-100">
-    <div class="px-40 py-10">
-    <img class="h-36" src="/images/LOGO.png" alt="workcation" >
-    <img src="/images/at the beach pic.jpg" alt="workcationing" class="mt-6 rounded-3xl" >
+<body class="bg-gray-300   ">
+<div class="grid lg:grid-cols-2 bg-gray-100 2xl:grid-cols-5">
+    <div class="px-40 py-10 max-w-md mx-auto sm:max-w-xln lg:px-12 lg:py-24
+     bg-gray-100 lg:max-w-full xl:mr-0 2xl:col-span-2">
+        <div class="xl:max-w-xl">
+        <img class="h-36" src="/images/LOGO.png" alt="workcation" >
+        <img src="/images/at the beach pic.jpg " alt="workcationing" class="mt-6 rounded-lg shadow-xl sm:mt-8 sm:h-32
+        sm:w-full sm:object-cover object-center lg:hidden" >
+         <h1 class="mt-6 text-2xl font-bold text-gray-900 sm:text-4xl
+         lg:text-3xl xl:text-4xl">You can work from anywhere 
+        <br class="hidden lg:inline">
+        <span class="text-indigo-500 sm:mt-8">Take advantage of it</span>
+        </h1>
+
+         <p class="mt-2 text-gray-400 sm:mt-4 sm:text-xl">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+         Eos distinctio hic dolorem doloribus. Sapiente error perspiciatis 
+         dolore esse soluta sit nam voluptatibus 
+        velit voluptates quas, possimus architecto odio, veniam eaque?
+        </p>
+        <div class="mt-4 mt-6 ">
+        <p class="bg-indigo-500 text-white px-5 py-3 rounded-lg shadow-lg 
+        uppercase 
+        tracking-wide text-semibold text-sm m:text-base ">Book your escape</p>
+    </div>
+
+        </div>
     </div>
     
+        <div class="hidden lg:block relative  2xl:col-span-3">
+        <img src="/images/at the beach pic.jpg  " alt="workcationing" 
+        class=" absolute inset-0 w-full h-full object-cover object-center" >
+
+        </div>
+</div>
     </body>
 </body>
 </html>
